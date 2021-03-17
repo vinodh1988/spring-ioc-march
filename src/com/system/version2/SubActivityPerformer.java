@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 import com.system.SubTask;
 
-@Component
+@Component("mtask1")
 public class SubActivityPerformer implements MinorTask {
 
 	@Override
